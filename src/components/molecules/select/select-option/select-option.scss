@@ -1,0 +1,32 @@
+acme-select-option {
+  display: block !important;
+
+  .select-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    min-height: 40px;
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: white;
+
+    &:hover {
+      background-color: gray;
+    }
+
+    &:active {
+      background-color: pink;
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &.disabled {
+      color: lightgray;
+      cursor: not-allowed;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+}

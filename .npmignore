@@ -1,0 +1,10 @@
+.stencil/
+node_modules/
+scripts/
+src/
+www/
+.editorconfig
+.gitignore
+stencil.config.ts
+tsconfig.json
+tslint.json
